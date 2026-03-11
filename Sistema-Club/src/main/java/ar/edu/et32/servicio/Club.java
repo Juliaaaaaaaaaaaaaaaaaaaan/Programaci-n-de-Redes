@@ -35,8 +35,8 @@ public class Club {
             System.out.println("Sede en: " + sede.getDireccion());
         }
         
-        for (Socio s : listaSocios) {
-            s.mostrarCredencial(); // Este método está en la interfaz/clase Socio
+        for (Socio aux : listaSocios) { //for each
+            aux.mostrarCredencial(); // Este método está en la interfaz/clase Socio
         }
     }
 }
